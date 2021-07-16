@@ -1,0 +1,55 @@
+@import '../global.scss';
+
+#index-header{
+}
+#index-about-section{
+    display: flex;
+    align-items: center;
+    grid-gap: 40px;
+
+    img{
+        width: 400px;
+    }
+    #index-about-text{
+        div{
+            display: flex;
+            justify-content: flex-end;
+            a{
+                display: inline-block;
+            }
+        }
+    }
+}
+
+
+    #index-skills-header{
+        text-align: center;
+        }
+        #index-skills{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .skill{
+           align-items: center;
+           justify-content: space-between;
+            img{
+                width: 50px;
+            }
+            p{}
+        }
+    
+        #index-knowledge-header{
+            text-align: center;
+        }
+        #index-knowledge{
+            display: flex;
+            justify-content: space-evenly;
+            div{
+                align-items: center;
+
+                img{}
+                p{}
+            }
+        }
+
+

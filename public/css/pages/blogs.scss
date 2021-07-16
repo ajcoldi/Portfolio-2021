@@ -1,0 +1,25 @@
+@import '../global.scss';
+
+
+#blogs-header{
+
+}
+#blogs-card-section{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+    .blog-card{
+        box-shadow: 0 0 5px lightgray;
+
+        .blog-card-thumb-img{
+            width: 100%;            
+        }
+        .blog-card-text{
+            padding: 20px;
+            h3{}
+            small{}
+            p{}
+            .text-anchor{}
+        }
+    }
+}

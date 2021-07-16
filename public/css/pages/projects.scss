@@ -1,0 +1,41 @@
+@import '../global.scss';
+
+
+#projects-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 40px;
+    
+    .project{
+        display: flex;
+        
+        grid-gap: 20px;
+        .project-thumb-img{
+            width: 200px;
+            height: 200px;
+            box-shadow: 0 0 2px#303030;
+        }
+        .project-thumb-img:hover{
+                cursor:zoom-in;
+        }
+        .project-text{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+
+            .project-buttons{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                grid-gap: 20px;
+                a{
+                
+                   
+                }
+            }
+        }
+        
+    }
+    
+}

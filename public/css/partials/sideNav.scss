@@ -1,0 +1,79 @@
+@import '../global.scss';
+
+#sideNavWrapper{
+    background: $side-nav;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: $text-dark;
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex: 1;
+        h2{}
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+        }
+        p{
+            a{
+                
+            }
+        }
+    }
+    .socialIcons{
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        a{
+           
+            img{
+                width: 25px;
+                
+            }
+        }
+    }
+    nav{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            li{
+                list-style: none;
+                a{
+                    display: flex;
+                    align-items: center;
+                    grid-gap: 20px;
+                    padding: 10px 20px;
+                    color:  $text-dark;
+                    img{
+                        width: 20px;
+                        filter: invert(0);
+                        filter:hue-rotate(1);
+                    }
+                    p{}
+                }
+                #contact-anchor{
+                    background: $text-dark;
+                    color: $text-light;
+                    border-radius: 5px;
+                    img{
+                        filter: invert(1);
+                    }
+                }
+            }
+        }
+    }
+
+}
