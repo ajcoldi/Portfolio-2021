@@ -1,0 +1,50 @@
+<%- include('../layouts/header') %>
+
+<div id="modal-background"></div>
+<div id="modal">
+    <h1 id="modal-closeBtn">X</h1>
+    <img class="modal-content" id="img01">
+</div>
+
+<main>
+    <section class="background-dark">
+        <div id="projects-header" class="grid-gap-colum-10">
+            <h3>Projects</h3>
+            <p>Welcome to my website Welcome to my website Welcome to my website Welcome to my website Welcome to my website Welcome to my website </p>
+        </div>
+    </section>
+    <section>
+        <div id="projects-section" >
+            <div class="project">
+                <img class="project-thumb-img" src="/images/project-thumbnails/newsApp.jpg">
+                <div class="project-text">
+                    <h3>NewsAPI Express App</h3>
+                    <small>Stack: Express/Sass/Mongoose/EJS</small>                    
+                    <p>
+                        A simple news app made with nodejs and NewsAPI. Using URL calls to return specific content along with a search bar to query specific infomation.   
+                    </p>    
+                    <div class="project-buttons">
+                        <a class="text-anchor"  href="/projects/takeaway">Vist Website</a>
+                        <a class="btn" href="#">View Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img class="project-thumb-img" src="/images/webDevImg.png">
+                <div class="project-text">
+                    <h3>title</h3>
+                    <small>Stack: Express/Sass/Mongoose/</small>                    
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Phasellus mollis nisi ac mollis iaculis. Ut in posuere nulla.  
+                    </p>    
+                    <div class="project-buttons">
+                        <a class="text-anchor"  href="#">Vist Website</a>
+                        <a class="btn" href="#">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<%- include('../layouts/footer') %>

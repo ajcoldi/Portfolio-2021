@@ -1,0 +1,63 @@
+        <footer>
+            <main>
+                <section class="background-dark">
+                    <%- include('../partials/footer') %>
+                </section>
+            </main>
+        </footer>
+    </div>
+    <script>
+        
+        const modal = document.getElementById('modal');
+        const closeBtn = document.getElementById('modal-closeBtn');
+        let modalImg = document.getElementById('img01');
+
+        const modalBackground = document.getElementById('modal-background');
+        const images = document.getElementsByClassName('project-thumb-img');
+
+        for (var i = 0; i < images.length; i++) {
+            var img = images[i];
+            img.onclick = function() {
+                modal.style.display = 'flex';
+                modalBackground.style.display = 'flex';
+                setTimeout(() => {
+                    modalBackground.style.opacity = '0.8';
+
+                }, 500);
+                setTimeout(() => {
+                    modal.style.opacity = "1";
+
+                }, 1000);
+                modalImg.src = this.src;
+            }
+        }
+
+
+       
+        closeBtn.onclick = function() {
+            modal.style.opacity = '0';
+            modalBackground.style.opacity = '0';
+            setTimeout(() => {
+                modal.style.display = 'none';
+            }, 500);
+            setTimeout(() => {
+                modalBackground.style.display = 'none';
+            }, 1000);
+            
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.opacity = '0';
+                modalBackground.style.opacity = '0';
+            setTimeout(() => {
+                modal.style.display = 'none';
+            }, 500);
+            setTimeout(() => {
+                modalBackground.style.display = 'none';
+            }, 1000);
+            }
+        }
+    </script>
+    
+</body>
+</html>
