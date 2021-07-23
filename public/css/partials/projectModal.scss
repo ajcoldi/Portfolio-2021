@@ -1,7 +1,6 @@
 #modal-background{
     display: none;
     opacity: 0;
-
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -11,7 +10,8 @@
 #modal{
     display: none;
     opacity: 0;
-    
+    flex-direction:column-reverse;   
+    grid-gap: 10px;
     position: fixed;
     left: 0;
     height: 100vh;
@@ -29,5 +29,21 @@
         border: solid 4px #303030;
         height: 500px;
         width: 500px;
+    }
+}
+
+@media only screen and (max-width: 900px) {      
+    #modal{
+        display: none;
+        opacity: 0;
+        
+        position: fixed;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        padding-right: 0px;
+        margin-left: 0px;
+        justify-content: center;
+        align-items: center;
     }
 }

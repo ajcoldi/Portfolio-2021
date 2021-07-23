@@ -34,3 +34,20 @@ form{
     }
     
 }
+
+@media only screen and (max-width: 1000px) {   
+    form{
+        div{
+            width: 80%;
+            
+        }   
+    }
+}
+@media only screen and (max-width: 580px) {   
+    form{
+        div{
+            width: 100%;
+            
+        }   
+    }
+}

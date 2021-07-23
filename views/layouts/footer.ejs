@@ -7,6 +7,23 @@
         </footer>
     </div>
     <script>
+
+
+        const hamBurgBtn = document.getElementById('hbMenu');
+        const sideNav = document.getElementById('sideNavWrapper');
+        const closeNavBtn = document.getElementById('closeBtn');
+        
+        
+        hamBurgBtn.addEventListener('click', () => {
+            sideNav.style.display = "flex";
+            closeNavBtn.style.display = 'flex';
+        });
+        closeNavBtn.addEventListener('click', () => {
+            sideNav.style.display = 'none';
+            closeNavBtn.style.display = 'none';
+
+        });
+
         
         const modal = document.getElementById('modal');
         const closeBtn = document.getElementById('modal-closeBtn');

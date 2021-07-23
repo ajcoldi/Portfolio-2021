@@ -113,3 +113,10 @@ footer{
     text-align: center;
     color: $text-light;
 }
+@media only screen and (max-width: 800px) {    
+    #container{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+}
