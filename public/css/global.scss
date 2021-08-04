@@ -7,7 +7,7 @@ $background-dark: #324759;
 // $background-dark: #1A3540;
 
 // $side-nav: #64B6F6;
-$side-nav: #06ADBF;
+$side-nav: #0dacac;
 $text-light: #FFFFFF;
 $text-dark: #324759;
 // $side-nav: #1A3540;
@@ -42,6 +42,10 @@ a{
 }
 .text-anchor{
     color: whitesmoke;
+    text-decoration: underline;
+}
+.text-anchor-dark{
+    color: $text-dark;
     text-decoration: underline;
 }
 hr{

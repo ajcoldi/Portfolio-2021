@@ -7,6 +7,9 @@ router.get('/', (req, res) => {
 router.get('/projects', (req, res) => {
     res.render('pages/projects')
 })
+router.get('/art', (req, res) => {
+    res.render('pages/art')
+})
 router.get('/blogs', (req, res) => {
     res.render('pages/blogs')
 })
