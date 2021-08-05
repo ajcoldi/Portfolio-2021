@@ -205,8 +205,8 @@ footer {
   }
 }
 #hbMenu {
-  height: 30px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -221,8 +221,8 @@ footer {
 }
 
 #closeBtn {
-  height: 50px;
-  width: 50px;
+  height: 20px;
+  width: 20px;
   position: absolute;
   top: 10px;
   right: 10px;
@@ -234,7 +234,7 @@ footer {
   position: absolute;
   left: 15px;
   content: " ";
-  height: 50px;
+  height: 20px;
   width: 4px;
   background-color: #324759;
 }
